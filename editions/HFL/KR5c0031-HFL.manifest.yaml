@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5c0031/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5c0031/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上老君說長生益筭妙經
+  date: '2015-08-29 00:16:56.112235'
+  source:
+    repository: kanripo
+    path: KR5c0031
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0031_000-HFL.yaml, hash: 'sha256:599107e64dd9570815aa1e492bd30066b1254e4b2f865e08c1626ed3c8ded1e4'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0031_000-HFL.markers.yaml, hash: 'sha256:4bd4587ab66aa7596c8a777c2820abcdcf4c5df39c699c2eff6b4a99bd97d816'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0031_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 112
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:bc97b97dcea545d3e1b06350342c28ce86e83abdb90bb7680c2dd5db9b62ab82

@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5c0031/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5c0031/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 太上老君說長生益筭妙經
+  date: '2015-08-29 00:16:56.112235'
+  source:
+    repository: kanripo
+    path: KR5c0031
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5c0031_000-ZTDZ.yaml, hash: 'sha256:a26ba79105500e82d5b1b6b107e5882e852a3fcef7f4723da46b7c804d5e24c7'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5c0031_000-ZTDZ.markers.yaml, hash: 'sha256:4139828602b96b9c8a0528231c4fdd4db49c4d6dbf2d7b41487108e26311540d'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5c0031_SJB_000-110410c
+    span:
+    - body
+    - 0
+    - 112
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:fca4a751d2a98d320b54066a29e31b4431689173aac0115e663a7fa3bf52b4d1
